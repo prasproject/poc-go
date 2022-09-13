@@ -154,5 +154,5 @@ func main() {
 
 	e.POST("/token", h.token)
 
-	e.Logger.Fatal(e.Start(":1323"))
+	e.Logger.Fatal(e.Start(":8080"))
 }
